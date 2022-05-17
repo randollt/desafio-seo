@@ -1,0 +1,406 @@
+@media screen and (min-width: 506px) {
+    .grid-container {
+        display: grid;
+
+        grid-template: 
+        "header" 50px
+        "navbar" 70px
+        "main" auto
+        "sidebar" auto
+        "footer"  150px;
+    }
+
+    .cont-logotipo {
+        display: flex;
+        padding: 0%;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        background-color: rgba(0, 0, 0, 0.808);
+    }
+
+    .banner {
+        height: 270px;
+        width: 100%;
+    }
+
+    .navbar {
+        height: 70px;
+
+        ul {
+            list-style: none;
+            font-size: 95%;
+            display: flex;
+            align-items: center;
+
+            a {
+                text-decoration: none;
+                color: #fff;
+                margin: 10px;
+                padding: 2px;
+            }
+        }
+    }
+
+}
+
+
+@media screen and (min-width: 700px) {
+    .grid-container {
+        grid-template: 
+        "header header" 50px
+        "navbar navbar" 100px
+        "main main" auto
+        "sidebar" auto
+        "footer" auto / 200px auto;
+    }
+
+    .grid-container {
+        grid-template: 
+        "header" 100px 
+        "navbar" 100px 
+        "main" auto 
+        "sidebar" auto 
+        "footer" 150px;
+    }
+
+    .cont-logotipo {
+        height: 100px;
+
+        img {
+            height: 100px;
+            width: 100px;
+            display: flex;
+        }
+    }
+
+   
+
+    .box__copyright {
+        display: flex;
+
+        p {
+            font-size: 13px;
+        }
+    }
+
+    .titlehome {
+        font-size: 35px;
+    }
+
+    .banner {
+        height: 320px;
+        width: 100%;
+    }
+
+    .navbar {
+        height: 100px;
+
+        ul {
+            font-size: 22px;
+        }
+    }
+
+    .bestseller {
+        font-size: 27px;
+
+        .bestsellerimg {
+            width: 350px;
+            height: 1000px;
+        }
+    }
+
+    .nuestrolocalimg {
+        width: 300px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 2%;
+    }
+
+    
+
+    .cattablas tr {
+        
+        th {
+        font-size: 18px;
+
+        td {
+            font-size: 15px;
+        }
+    }
+
+    }
+
+    .text-titleall {
+        font-size: 40px;
+    }
+
+    
+
+    .catalogorayban {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        text-align: center;
+
+        .rayban1 {
+            width: 320px;
+            height: 400px;
+            background-size: cover;
+        }
+    
+        .rayban2 {
+            width: 320px;
+            height: 400px;
+            background-size: cover;
+        }
+    
+        .rayban3 {
+            width: 320px;
+            height: 400px;
+            background-size: cover;
+        }
+    
+        .rayban4 {
+            width: 320px;
+            height: 400px;
+            background-size: cover;
+        }
+    
+        .rayban5 {
+            width: 320px;
+            height: 400px;
+            background-size: cover;
+        }
+    
+        .rayban6 {
+            width: 320px;
+            height: 400px;
+            background-size: cover;
+        }
+    }
+
+
+    .textocontenido-primary {
+        font-size: 18px;
+    }
+
+    .map {
+        width: 600px;
+        height: 400px;
+    }
+
+    form {
+        font-size: 20px;
+        width: 450px;
+    }
+
+    .imgnosotros {
+        width: 100%;
+        height: 600px;
+    }
+
+    .carrousel {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .grid-container {
+        grid-template: 
+        "header  header header"100px
+        "navbar  navbar  navbar"auto
+        "main  sidebar footer"autopx / 
+        200px auto 200px;
+    }
+
+    .collapse {
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    .titlehome {
+        font-size: 70px;
+    }
+
+    .navbar {
+        height: 100px;
+
+        ul {
+            font-size: 25px;
+
+            li {
+                margin: 90px;
+            }
+        }
+    }
+
+
+    .banner {
+        height: 520px;
+        width: 100%;
+    }
+
+    .bestseller {
+        font-size: 30px;
+
+        .bestsellerimg {
+            flex-direction: row;
+            height: 600px;
+            width: 1700px;
+        }
+    
+    }
+
+   
+    .best_1 {
+        background-size: cover;
+        height: 441px;
+        width: 517px;
+    }
+
+    .best_2 {
+        background-size: cover;
+        height: 441px;
+        width: 517px;
+    }
+
+    .best_3 {
+        background-size: cover;
+        height: 441px;
+        width: 517px;
+    }
+
+    .titulusomos {
+        font-size: 22px;
+    }
+
+    .textsomos {
+        font-size: 18px;
+    }
+
+    .nuestrolocalimg {
+        width: 614px;
+        height: 514px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 2%;
+    }
+
+    .catalogorayban {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        text-align: center;
+
+        .rayban1 {
+            width: 400px;
+            height: 550px;
+            background-size: cover;
+        }
+    
+        .rayban2 {
+            width: 400px;
+            height: 550px;
+            background-size: cover;
+        }
+    
+        .rayban3 {
+            width: 450px;
+            height: 550px;
+            background-size: cover;
+        }
+    
+        .rayban4 {
+            width: 400px;
+            height: 550px;
+            background-size: cover;
+        }
+    
+        .rayban5 {
+            width: 400px;
+            height: 550px;
+            background-size: cover;
+        }
+    
+        .rayban6 {
+            width: 450px;
+            height: 550px;
+            background-size: cover;
+        }
+    }
+
+    
+
+    .cattablas tr {
+        
+    th {
+        font-size: 28px;
+    }
+
+    td {
+        font-size: 25px;
+    }
+
+} 
+
+    .text-titleall {
+        font-size: 50px;
+    }
+
+   
+
+    .textocontenido-primary {
+        font-size: 22px;
+    }
+
+    .map {
+        width: 600px;
+        height: 500px;
+    }
+
+    form {
+        font-size: 25px;
+        width: 650px;
+        margin: 20px;
+    }
+
+    .contenedorform {
+        padding: 0px;
+    }
+
+    .textocontenido-primary {
+        margin: 10px;
+    }
+
+    .formu-title {
+        margin: 10px;
+    }
+
+    .contenedor-sobre{
+        width: 100%;
+        height: 1200px;
+
+    .imgnosotros {
+        width: 80%;
+        height: 1200px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    
+    }
+    .cont-logotipo {
+        width: 100%;
+    }
+
+    .carrousel {
+        width: 30%;
+    }
+}
